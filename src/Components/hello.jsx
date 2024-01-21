@@ -1,7 +1,17 @@
-import React from 'react';
+import React from 'react'
 
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+export default function Welcome(props) {
+  return (
+    <div>
+      <h1> Hello <u><i>{props.name}</i></u> , 
+      Welcome to the Class</h1>
+    </div>
+  )
 }
 
-export default Welcome;
+
+
+
+// function Welcome(props) {
+//   return <h1>Hello, {props.name}</h1>;
+// }

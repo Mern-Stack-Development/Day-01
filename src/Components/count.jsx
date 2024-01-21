@@ -7,11 +7,17 @@ export default function State() {
     <div>
       <p>Count {count}</p>
       <button onClick={() => setCount(count + 1)}>
-        Count Up
+        Count UP
       </button>
       <button onClick={() => setCount(count - 1)}>
-        Count Down
+        Count DOWN
       </button>
+ 
     </div>
   );
 }
+
+
+
+
+
