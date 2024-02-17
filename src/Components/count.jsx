@@ -12,7 +12,6 @@ export default function State() {
       <button onClick={() => setCount(count - 1)}>
         Count DOWN
       </button>
- 
     </div>
   );
 }

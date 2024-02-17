@@ -1,16 +1,11 @@
 import React from 'react';
 import UserProfile from './Components/userProfile';
-import State from './Components/count';
 import Welcome from './Components/hello';
+import State from './Components/count';
 
 function App() {
   return (
     <div className="App">
-      <Welcome/>
-      <UserProfile
-        name="John Doe"
-        age={30}
-        email="john@example.com"/>
       <State/>
     </div>
   );
@@ -18,6 +13,12 @@ function App() {
 
 export default App;
 
+
+{/* <UserProfile
+        name="John Doe"
+        age={30}
+        email="john@example.com"/>
+      <State/> */}
 
 {/* <Welcome name="Mern"/>
 <UserProfile
