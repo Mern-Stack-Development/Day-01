@@ -1,17 +1,23 @@
 import React from 'react';
-import UserProfile from './Components/userProfile';
 import Welcome from './Components/hello';
+import UserProfile from './Components/userProfile';
 import State from './Components/count';
 
 function App() {
   return (
-    <div className="App">
-      <State/>
+    <div>
+        <State/>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
 
 
 {/* <UserProfile
